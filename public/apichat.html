@@ -7,7 +7,7 @@
     <link href="animate.css" rel="stylesheet" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script type="text/javascript">
-        var accessToken = '10f63b41df1e4eb2990793a91d8a7d26';  //Replace access token here
+        var accessToken = 'XXXXX';  //Replace access token here
         var baseUrl = "https://api.api.ai/v1/";
         $(document).ready(function() {
             $("#input").keypress(function(event) {
@@ -84,7 +84,7 @@
                 }
             });
             $('#input').val("");
-            
+
               var d = document.getElementById('bot').lastElementChild.innerHTML;
               document.getElementById('bot').lastElementChild.innerHTML = [d.slice(0, 23), " animated flipInX", d.slice(23)].join('');
             //setResponse("Loading...");
